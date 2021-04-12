@@ -1,0 +1,190 @@
+body{
+  font-family: Avenir Nex;
+  overflow-x: hidden;
+}
+
+nav{
+height: 104px;
+width: 100%;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+}
+
+.bg-light {
+  background-color: #33A0D9!important;
+}
+
+.join-a-race {
+height: 32px;
+width: 164px;
+font-size: 24px;
+line-height: 36px;
+font-weight: 700;
+color: #000;
+
+}
+
+.leaderboard{
+height: 32px;
+width: 160px;
+font-size: 24px;
+line-height: 36px;
+font-weight: 700;
+color: #000;
+}
+
+.login{
+ height: 46px;
+width: 144px;
+background-color: #fff;
+border-radius: 8px;
+font-size: 24px;
+line-height: 36px;
+font-weight: 700;
+color: #000;
+text-align: center;
+
+}
+
+.container{  
+    position: absolute;
+    left: 30%;    
+    top:20%;
+  
+}
+
+.password-reset{  
+width: 389px;
+height: 58px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 120%;
+color: #000000;
+margin-top: 183px;
+}
+
+.new-password{
+ 
+width: 261px;
+height: 33px;
+left: 0px;
+top: 0px;
+
+/* Button Paragraph */
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+letter-spacing: 0.205em;
+
+color: #000000;
+}
+
+.new-password-text, .re-new-password-text{
+  width: 417px;
+height: 45px;
+background: #F2F2F2;
+border: 3px solid #000000;
+box-sizing: border-box;
+border-radius: 2px;
+margin-top: 17px;
+font-size: 32px;
+padding-left: 10px;
+}
+
+.re-new-password{
+  width: 452px;
+height: 33px;
+font-family: Avenir Next;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+letter-spacing: 0.205em;
+color: #000000;
+margin-top:56px;
+}
+
+.reset-password-button{
+  width: 441px;
+  height: 68px;  
+  background: #000000;
+  border-radius: 10px;
+  margin-top: 80px;
+
+}
+
+.button-text{
+  width: 286px;
+height: 34px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.205em;
+color: #FFFFFF;
+
+}
+
+.password-do-not-match{
+  display: none;
+  width: 183px;
+height: 21px;
+font-family: Poppins;
+font-style: italic;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+color: #EB5757;
+margin-top: 10px;
+}
+
+.password-changed{
+  width: 481px;
+height: 58px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 120%;
+color: #000000;
+margin-top:183px;
+}
+
+.text-content{
+  width: 543px;
+height: 72px;
+left: 500px;
+top: 368px;
+
+/* P - Paragraph + Secondary Button */
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+color: #000000;
+}
+
+.join-a-race-buton{
+  width: 492px;
+height: 68px;
+background: #000000;
+border-radius: 10px;
+margin-top:45px;
+}
+
+.password-changed-container{
+  display: none;
+}
