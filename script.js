@@ -33,11 +33,21 @@ function passwordLength(){
 
 function checkPassword(){
     console.log("inside");
-    if(!passwordLength()){
-        return;
-    } else if(!passwordText()){
-        return;
-    }else{
+    // if(!passwordLength()){
+    //     return;
+    // } else if(!passwordText()){
+    //     return;
+    // }else{
+    //     if(password === repassword){
+    //         console.log("same"); 
+    //         displayPasswordMatch();       
+    //     }else{
+    //         console.log("not match");
+    //         displayPasswordDoNotMatch();
+    //     }
+    // }
+
+    if(passwordLength() && passwordText()){
         if(password === repassword){
             console.log("same"); 
             displayPasswordMatch();       
@@ -45,6 +55,7 @@ function checkPassword(){
             console.log("not match");
             displayPasswordDoNotMatch();
         }
+        
     }
     
 }
